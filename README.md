@@ -73,8 +73,3 @@ make
 
 ---
 
-## 👨‍💻 Author
-
-**Ibraheem**
-
-Computer Engineering Student
