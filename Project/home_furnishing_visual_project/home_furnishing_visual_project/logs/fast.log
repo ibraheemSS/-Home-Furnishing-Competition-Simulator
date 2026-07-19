@@ -1,0 +1,39 @@
+# Home furnishing simulation log
+# timestamp_ms type team member round piece serial accepted furniture expected wins members dir from to touches text
+1777812368351 type=CHILD_READY team=0 member=0 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=source ready
+1777812368352 type=CHILD_READY team=0 member=1 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle ready
+1777812368352 type=CHILD_READY team=0 member=2 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle ready
+1777812368352 type=CHILD_READY team=0 member=3 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle ready
+1777812368352 type=CHILD_READY team=0 member=4 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink ready
+1777812368352 type=CHILD_READY team=1 member=0 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=source ready
+1777812368352 type=CHILD_READY team=1 member=1 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle ready
+1777812368352 type=CHILD_READY team=1 member=3 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle ready
+1777812368352 type=CHILD_READY team=1 member=2 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle ready
+1777812368352 type=CHILD_READY team=1 member=4 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink ready
+1777812368512 type=ROUND_START team=-1 member=-1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=-1 to=-1 touches=0 text================= ROUND 1/1 ================ Current score: team 0 = 0, team 1 = 0
+1777812368530 type=LOG team=0 member=1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle started round
+1777812368530 type=LOG team=0 member=2 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle started round
+1777812368530 type=LOG team=0 member=4 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink started round
+1777812368530 type=LOG team=0 member=3 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle started round
+1777812368530 type=LOG team=0 member=0 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=round 1 started at source
+1777812368530 type=LOG team=1 member=1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle started round
+1777812368530 type=LOG team=1 member=2 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle started round
+1777812368530 type=LOG team=1 member=3 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle started round
+1777812368530 type=LOG team=1 member=0 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=round 1 started at source
+1777812368530 type=LOG team=1 member=4 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink started round
+1777812369691 type=VISUAL_RESULT team=1 member=0 round=1 piece=0 serial=1 accepted=1/2 expected=2 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 1 piece 0 progress 1/2
+1777812369691 type=ACCEPTED team=1 member=0 round=1 piece=0 serial=1 accepted=1/2 expected=2 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 1 (piece 0), progress 1/2
+1777812369872 type=VISUAL_RESULT team=0 member=0 round=1 piece=0 serial=1 accepted=1/2 expected=2 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 1 piece 0 progress 1/2
+1777812369872 type=ACCEPTED team=0 member=0 round=1 piece=0 serial=1 accepted=1/2 expected=2 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 1 (piece 0), progress 1/2
+1777812370844 type=LOG team=1 member=4 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink stopped round
+1777812370845 type=VISUAL_RESULT team=1 member=0 round=1 piece=1 serial=2 accepted=2/2 expected=3 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 2 piece 1 progress 2/2
+1777812370845 type=ACCEPTED team=1 member=0 round=1 piece=1 serial=2 accepted=2/2 expected=3 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 2 (piece 1), progress 2/2
+1777812370845 type=ROUND_WIN team=1 member=0 round=1 piece=1 serial=2 accepted=2/2 expected=3 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=team 1 won round 1
+1777812370845 type=LOG team=1 member=0 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=source stopped round
+1777812371170 type=LOG team=0 member=4 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink stopped round
+1777812371170 type=VISUAL_RESULT team=0 member=0 round=1 piece=1 serial=2 accepted=2/2 expected=3 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 2 piece 1 progress 2/2
+1777812371170 type=ACCEPTED team=0 member=0 round=1 piece=1 serial=2 accepted=2/2 expected=3 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 2 (piece 1), progress 2/2
+1777812371170 type=ROUND_WIN team=0 member=0 round=1 piece=1 serial=2 accepted=2/2 expected=3 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=team 0 won round 1
+1777812371170 type=LOG team=0 member=0 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=source stopped round
+1777812375342 type=ROUND_RESULT team=-1 member=-1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:1 members=5 dir=0 from=-1 to=-1 touches=0 text=Round 1 finished: Team 1 won this round. Current result: Team 0 = 0, Team 1 = 1. Next round starts in 2 seconds.
+1777812378352 type=COMPETITION_END team=-1 member=-1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:1 members=5 dir=0 from=-1 to=-1 touches=0 text=COMPETITION WINNER: TEAM 1. Final score: team 0 = 0, team 1 = 1.

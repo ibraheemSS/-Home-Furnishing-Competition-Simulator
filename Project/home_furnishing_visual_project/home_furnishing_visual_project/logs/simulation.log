@@ -1,0 +1,139 @@
+# Home furnishing simulation log
+# timestamp_ms type team member round piece serial accepted furniture expected wins members dir from to touches text
+1777755458660 type=CHILD_READY team=0 member=0 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=source ready
+1777755458660 type=CHILD_READY team=0 member=1 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle ready
+1777755458660 type=CHILD_READY team=0 member=2 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle ready
+1777755458660 type=CHILD_READY team=0 member=3 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle ready
+1777755458660 type=CHILD_READY team=0 member=4 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink ready
+1777755458661 type=CHILD_READY team=1 member=0 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=source ready
+1777755458661 type=CHILD_READY team=1 member=1 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle ready
+1777755458661 type=CHILD_READY team=1 member=2 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle ready
+1777755458661 type=CHILD_READY team=1 member=3 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle ready
+1777755458661 type=CHILD_READY team=1 member=4 round=0 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink ready
+1777755458781 type=ROUND_START team=-1 member=-1 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=-1 to=-1 touches=0 text================= ROUND 1/4 ================ Current score: team 0 = 0, team 1 = 0
+1777755458792 type=LOG team=0 member=4 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink started round
+1777755458792 type=LOG team=1 member=0 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=round 1 started at source
+1777755458792 type=LOG team=1 member=1 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle started round
+1777755458792 type=LOG team=1 member=2 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle started round
+1777755458792 type=LOG team=1 member=3 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle started round
+1777755458793 type=LOG team=1 member=4 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink started round
+1777755458793 type=LOG team=0 member=0 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=round 1 started at source
+1777755458793 type=LOG team=0 member=1 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=1 to=1 touches=0 text=middle started round
+1777755458793 type=LOG team=0 member=2 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=2 to=2 touches=0 text=middle started round
+1777755458793 type=LOG team=0 member=3 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=3 to=3 touches=0 text=middle started round
+1777755458985 type=VISUAL_RESULT team=0 member=0 round=1 piece=7 serial=8 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 8 piece 7 progress 0/10
+1777755458985 type=REJECTED team=0 member=0 round=1 piece=7 serial=8 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 8 (piece 7) returned to source
+1777755458987 type=VISUAL_RESULT team=1 member=0 round=1 piece=4 serial=10 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 0/10
+1777755458987 type=REJECTED team=1 member=0 round=1 piece=4 serial=10 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755459190 type=VISUAL_RESULT team=1 member=0 round=1 piece=5 serial=6 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 6 piece 5 progress 0/10
+1777755459190 type=REJECTED team=1 member=0 round=1 piece=5 serial=6 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 6 (piece 5) returned to source
+1777755459195 type=VISUAL_RESULT team=0 member=0 round=1 piece=0 serial=2 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 2 piece 0 progress 0/10
+1777755459195 type=REJECTED team=0 member=0 round=1 piece=0 serial=2 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 2 (piece 0) returned to source
+1777755459368 type=VISUAL_RESULT team=1 member=0 round=1 piece=3 serial=4 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 4 piece 3 progress 0/10
+1777755459368 type=REJECTED team=1 member=0 round=1 piece=3 serial=4 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 4 (piece 3) returned to source
+1777755459408 type=VISUAL_RESULT team=0 member=0 round=1 piece=4 serial=10 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 0/10
+1777755459408 type=REJECTED team=0 member=0 round=1 piece=4 serial=10 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755458373 type=VISUAL_RESULT team=1 member=0 round=1 piece=7 serial=8 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 8 piece 7 progress 0/10
+1777755458373 type=REJECTED team=1 member=0 round=1 piece=7 serial=8 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 8 (piece 7) returned to source
+1777755458381 type=VISUAL_RESULT team=0 member=0 round=1 piece=2 serial=9 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 9 piece 2 progress 0/10
+1777755458381 type=REJECTED team=0 member=0 round=1 piece=2 serial=9 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 9 (piece 2) returned to source
+1777755458588 type=VISUAL_RESULT team=0 member=0 round=1 piece=9 serial=3 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 3 piece 9 progress 0/10
+1777755458589 type=REJECTED team=0 member=0 round=1 piece=9 serial=3 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 3 (piece 9) returned to source
+1777755458599 type=VISUAL_RESULT team=1 member=0 round=1 piece=0 serial=2 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 2 piece 0 progress 0/10
+1777755458599 type=REJECTED team=1 member=0 round=1 piece=0 serial=2 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 2 (piece 0) returned to source
+1777755458783 type=VISUAL_RESULT team=0 member=0 round=1 piece=6 serial=7 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 7 piece 6 progress 0/10
+1777755458783 type=REJECTED team=0 member=0 round=1 piece=6 serial=7 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 7 (piece 6) returned to source
+1777755458825 type=VISUAL_RESULT team=1 member=0 round=1 piece=8 serial=5 accepted=0/10 expected=1 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 5 piece 8 progress 0/10
+1777755458825 type=REJECTED team=1 member=0 round=1 piece=8 serial=5 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 5 (piece 8) returned to source
+1777755458909 type=VISUAL_RESULT team=0 member=0 round=1 piece=1 serial=1 accepted=1/10 expected=2 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 1 piece 1 progress 1/10
+1777755458909 type=ACCEPTED team=0 member=0 round=1 piece=1 serial=1 accepted=1/10 expected=2 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 1 (piece 1), progress 1/10
+1777755458952 type=VISUAL_RESULT team=1 member=0 round=1 piece=1 serial=1 accepted=1/10 expected=2 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 1 piece 1 progress 1/10
+1777755458952 type=ACCEPTED team=1 member=0 round=1 piece=1 serial=1 accepted=1/10 expected=2 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 1 (piece 1), progress 1/10
+1777755459052 type=VISUAL_RESULT team=1 member=0 round=1 piece=0 serial=2 accepted=2/10 expected=3 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 2 piece 0 progress 2/10
+1777755459052 type=ACCEPTED team=1 member=0 round=1 piece=0 serial=2 accepted=2/10 expected=3 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 2 (piece 0), progress 2/10
+1777755459117 type=VISUAL_RESULT team=0 member=0 round=1 piece=7 serial=8 accepted=1/10 expected=2 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 8 piece 7 progress 1/10
+1777755459117 type=REJECTED team=0 member=0 round=1 piece=7 serial=8 accepted=1/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 8 (piece 7) returned to source
+1777755459253 type=VISUAL_RESULT team=1 member=0 round=1 piece=8 serial=5 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 5 piece 8 progress 2/10
+1777755459253 type=REJECTED team=1 member=0 round=1 piece=8 serial=5 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 5 (piece 8) returned to source
+1777755459338 type=VISUAL_RESULT team=0 member=0 round=1 piece=4 serial=10 accepted=1/10 expected=2 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 1/10
+1777755459338 type=REJECTED team=0 member=0 round=1 piece=4 serial=10 accepted=1/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755459436 type=VISUAL_RESULT team=1 member=0 round=1 piece=3 serial=4 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 4 piece 3 progress 2/10
+1777755459436 type=REJECTED team=1 member=0 round=1 piece=3 serial=4 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 4 (piece 3) returned to source
+1777755459581 type=VISUAL_RESULT team=0 member=0 round=1 piece=6 serial=7 accepted=1/10 expected=2 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 7 piece 6 progress 1/10
+1777755459581 type=REJECTED team=0 member=0 round=1 piece=6 serial=7 accepted=1/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 7 (piece 6) returned to source
+1777755459599 type=VISUAL_RESULT team=1 member=0 round=1 piece=5 serial=6 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 6 piece 5 progress 2/10
+1777755459599 type=REJECTED team=1 member=0 round=1 piece=5 serial=6 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 6 (piece 5) returned to source
+1777755459780 type=VISUAL_RESULT team=0 member=0 round=1 piece=8 serial=5 accepted=1/10 expected=2 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 5 piece 8 progress 1/10
+1777755459780 type=REJECTED team=0 member=0 round=1 piece=8 serial=5 accepted=1/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 5 (piece 8) returned to source
+1777755459805 type=VISUAL_RESULT team=1 member=0 round=1 piece=6 serial=7 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 7 piece 6 progress 2/10
+1777755459805 type=REJECTED team=1 member=0 round=1 piece=6 serial=7 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 7 (piece 6) returned to source
+1777755460033 type=VISUAL_RESULT team=1 member=0 round=1 piece=2 serial=9 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 9 piece 2 progress 2/10
+1777755460033 type=REJECTED team=1 member=0 round=1 piece=2 serial=9 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 9 (piece 2) returned to source
+1777755460037 type=VISUAL_RESULT team=0 member=0 round=1 piece=5 serial=6 accepted=1/10 expected=2 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 6 piece 5 progress 1/10
+1777755460037 type=REJECTED team=0 member=0 round=1 piece=5 serial=6 accepted=1/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 6 (piece 5) returned to source
+1777755460168 type=VISUAL_RESULT team=0 member=0 round=1 piece=0 serial=2 accepted=2/10 expected=3 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 2 piece 0 progress 2/10
+1777755460168 type=ACCEPTED team=0 member=0 round=1 piece=0 serial=2 accepted=2/10 expected=3 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 2 (piece 0), progress 2/10
+1777755460210 type=VISUAL_RESULT team=1 member=0 round=1 piece=4 serial=10 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 2/10
+1777755460210 type=REJECTED team=1 member=0 round=1 piece=4 serial=10 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755460407 type=VISUAL_RESULT team=0 member=0 round=1 piece=6 serial=7 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 7 piece 6 progress 2/10
+1777755460407 type=REJECTED team=0 member=0 round=1 piece=6 serial=7 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 7 (piece 6) returned to source
+1777755460473 type=VISUAL_RESULT team=1 member=0 round=1 piece=7 serial=8 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 8 piece 7 progress 2/10
+1777755460473 type=REJECTED team=1 member=0 round=1 piece=7 serial=8 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 8 (piece 7) returned to source
+1777755460607 type=VISUAL_RESULT team=1 member=0 round=1 piece=9 serial=3 accepted=3/10 expected=4 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 3 piece 9 progress 3/10
+1777755460607 type=ACCEPTED team=1 member=0 round=1 piece=9 serial=3 accepted=3/10 expected=4 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 3 (piece 9), progress 3/10
+1777755460650 type=VISUAL_RESULT team=0 member=0 round=1 piece=2 serial=9 accepted=2/10 expected=3 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 9 piece 2 progress 2/10
+1777755460650 type=REJECTED team=0 member=0 round=1 piece=2 serial=9 accepted=2/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 9 (piece 2) returned to source
+1777755460798 type=VISUAL_RESULT team=0 member=0 round=1 piece=9 serial=3 accepted=3/10 expected=4 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 3 piece 9 progress 3/10
+1777755460798 type=ACCEPTED team=0 member=0 round=1 piece=9 serial=3 accepted=3/10 expected=4 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 3 (piece 9), progress 3/10
+1777755460853 type=VISUAL_RESULT team=1 member=0 round=1 piece=5 serial=6 accepted=3/10 expected=4 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 6 piece 5 progress 3/10
+1777755460853 type=REJECTED team=1 member=0 round=1 piece=5 serial=6 accepted=3/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 6 (piece 5) returned to source
+1777755461010 type=VISUAL_RESULT team=1 member=0 round=1 piece=3 serial=4 accepted=4/10 expected=5 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 4 piece 3 progress 4/10
+1777755461010 type=ACCEPTED team=1 member=0 round=1 piece=3 serial=4 accepted=4/10 expected=5 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 4 (piece 3), progress 4/10
+1777755461034 type=VISUAL_RESULT team=0 member=0 round=1 piece=7 serial=8 accepted=3/10 expected=4 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 8 piece 7 progress 3/10
+1777755461034 type=REJECTED team=0 member=0 round=1 piece=7 serial=8 accepted=3/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 8 (piece 7) returned to source
+1777755461229 type=VISUAL_RESULT team=1 member=0 round=1 piece=2 serial=9 accepted=4/10 expected=5 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 9 piece 2 progress 4/10
+1777755461229 type=REJECTED team=1 member=0 round=1 piece=2 serial=9 accepted=4/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 9 (piece 2) returned to source
+1777755461288 type=VISUAL_RESULT team=0 member=0 round=1 piece=6 serial=7 accepted=3/10 expected=4 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 7 piece 6 progress 3/10
+1777755461288 type=REJECTED team=0 member=0 round=1 piece=6 serial=7 accepted=3/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 7 (piece 6) returned to source
+1777755461420 type=VISUAL_RESULT team=1 member=0 round=1 piece=7 serial=8 accepted=4/10 expected=5 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 8 piece 7 progress 4/10
+1777755461420 type=REJECTED team=1 member=0 round=1 piece=7 serial=8 accepted=4/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 8 (piece 7) returned to source
+1777755461543 type=VISUAL_RESULT team=0 member=0 round=1 piece=2 serial=9 accepted=3/10 expected=4 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 9 piece 2 progress 3/10
+1777755461543 type=REJECTED team=0 member=0 round=1 piece=2 serial=9 accepted=3/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 9 (piece 2) returned to source
+1777755461629 type=VISUAL_RESULT team=1 member=0 round=1 piece=5 serial=6 accepted=4/10 expected=5 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 6 piece 5 progress 4/10
+1777755461629 type=REJECTED team=1 member=0 round=1 piece=5 serial=6 accepted=4/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 6 (piece 5) returned to source
+1777755461706 type=VISUAL_RESULT team=0 member=0 round=1 piece=3 serial=4 accepted=4/10 expected=5 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 4 piece 3 progress 4/10
+1777755461706 type=ACCEPTED team=0 member=0 round=1 piece=3 serial=4 accepted=4/10 expected=5 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 4 (piece 3), progress 4/10
+1777755461849 type=VISUAL_RESULT team=1 member=0 round=1 piece=6 serial=7 accepted=4/10 expected=5 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 7 piece 6 progress 4/10
+1777755461849 type=REJECTED team=1 member=0 round=1 piece=6 serial=7 accepted=4/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 7 (piece 6) returned to source
+1777755461944 type=VISUAL_RESULT team=0 member=0 round=1 piece=2 serial=9 accepted=4/10 expected=5 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 9 piece 2 progress 4/10
+1777755461944 type=REJECTED team=0 member=0 round=1 piece=2 serial=9 accepted=4/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 9 (piece 2) returned to source
+1777755462074 type=VISUAL_RESULT team=1 member=0 round=1 piece=4 serial=10 accepted=4/10 expected=5 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 4/10
+1777755462074 type=REJECTED team=1 member=0 round=1 piece=4 serial=10 accepted=4/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755462079 type=VISUAL_RESULT team=0 member=0 round=1 piece=8 serial=5 accepted=5/10 expected=6 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 5 piece 8 progress 5/10
+1777755462079 type=ACCEPTED team=0 member=0 round=1 piece=8 serial=5 accepted=5/10 expected=6 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 5 (piece 8), progress 5/10
+1777755462218 type=VISUAL_RESULT team=0 member=0 round=1 piece=5 serial=6 accepted=6/10 expected=7 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 6 piece 5 progress 6/10
+1777755462218 type=ACCEPTED team=0 member=0 round=1 piece=5 serial=6 accepted=6/10 expected=7 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 6 (piece 5), progress 6/10
+1777755462246 type=VISUAL_RESULT team=1 member=0 round=1 piece=8 serial=5 accepted=5/10 expected=6 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 5 piece 8 progress 5/10
+1777755462246 type=ACCEPTED team=1 member=0 round=1 piece=8 serial=5 accepted=5/10 expected=6 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 5 (piece 8), progress 5/10
+1777755462369 type=VISUAL_RESULT team=0 member=0 round=1 piece=6 serial=7 accepted=7/10 expected=8 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 7 piece 6 progress 7/10
+1777755462369 type=ACCEPTED team=0 member=0 round=1 piece=6 serial=7 accepted=7/10 expected=8 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 7 (piece 6), progress 7/10
+1777755462459 type=VISUAL_RESULT team=1 member=0 round=1 piece=6 serial=7 accepted=5/10 expected=6 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 7 piece 6 progress 5/10
+1777755462459 type=REJECTED team=1 member=0 round=1 piece=6 serial=7 accepted=5/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 7 (piece 6) returned to source
+1777755462587 type=VISUAL_RESULT team=0 member=0 round=1 piece=4 serial=10 accepted=7/10 expected=8 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 7/10
+1777755462587 type=REJECTED team=0 member=0 round=1 piece=4 serial=10 accepted=7/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755462713 type=VISUAL_RESULT team=1 member=0 round=1 piece=7 serial=8 accepted=5/10 expected=6 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 8 piece 7 progress 5/10
+1777755462713 type=REJECTED team=1 member=0 round=1 piece=7 serial=8 accepted=5/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 8 (piece 7) returned to source
+1777755462718 type=VISUAL_RESULT team=0 member=0 round=1 piece=7 serial=8 accepted=8/10 expected=9 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 8 piece 7 progress 8/10
+1777755462718 type=ACCEPTED team=0 member=0 round=1 piece=7 serial=8 accepted=8/10 expected=9 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 8 (piece 7), progress 8/10
+1777755462953 type=VISUAL_RESULT team=0 member=0 round=1 piece=4 serial=10 accepted=8/10 expected=9 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 8/10
+1777755462953 type=REJECTED team=0 member=0 round=1 piece=4 serial=10 accepted=8/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755462988 type=VISUAL_RESULT team=1 member=0 round=1 piece=4 serial=10 accepted=5/10 expected=6 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 10 piece 4 progress 5/10
+1777755462988 type=REJECTED team=1 member=0 round=1 piece=4 serial=10 accepted=5/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 10 (piece 4) returned to source
+1777755463092 type=VISUAL_RESULT team=0 member=0 round=1 piece=2 serial=9 accepted=9/10 expected=10 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 9 piece 2 progress 9/10
+1777755463092 type=ACCEPTED team=0 member=0 round=1 piece=2 serial=9 accepted=9/10 expected=10 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 9 (piece 2), progress 9/10
+1777755463201 type=VISUAL_RESULT team=1 member=0 round=1 piece=2 serial=9 accepted=5/10 expected=6 wins=0:0 members=5 dir=2 from=0 to=4 touches=0 text=visual transaction rejected: serial 9 piece 2 progress 5/10
+1777755463201 type=REJECTED team=1 member=0 round=1 piece=2 serial=9 accepted=5/10 expected=0 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=rejected serial 9 (piece 2) returned to source
+1777755463252 type=LOG team=0 member=4 round=1 piece=-1 serial=-1 accepted=0/10 expected=0 wins=0:0 members=5 dir=0 from=4 to=4 touches=0 text=sink stopped round
+1777755463252 type=VISUAL_RESULT team=0 member=0 round=1 piece=4 serial=10 accepted=10/10 expected=11 wins=0:0 members=5 dir=1 from=0 to=4 touches=0 text=visual transaction accepted: serial 10 piece 4 progress 10/10
+1777755463252 type=ACCEPTED team=0 member=0 round=1 piece=4 serial=10 accepted=10/10 expected=11 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=accepted serial 10 (piece 4), progress 10/10
+1777755463252 type=ROUND_WIN team=0 member=0 round=1 piece=4 serial=10 accepted=10/10 expected=11 wins=0:0 members=5 dir=0 from=0 to=0 touches=0 text=team 0 won round 1

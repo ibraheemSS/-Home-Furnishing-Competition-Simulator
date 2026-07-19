@@ -1,0 +1,20 @@
+# Home furnishing simulation log
+# timestamp_ms type team member round piece serial accepted furniture expected wins members dir from to touches text
+1777809867796 type=CHILD_READY team=0 member=0 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=0 to=0 touches=0 text=source ready
+1777809867797 type=CHILD_READY team=0 member=1 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=1 to=1 touches=0 text=middle ready
+1777809867797 type=CHILD_READY team=0 member=2 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=2 to=2 touches=0 text=sink ready
+1777809867797 type=CHILD_READY team=1 member=0 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=0 to=0 touches=0 text=source ready
+1777809867797 type=CHILD_READY team=1 member=1 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=1 to=1 touches=0 text=middle ready
+1777809867797 type=CHILD_READY team=1 member=2 round=0 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=2 to=2 touches=0 text=sink ready
+1777809867874 type=ROUND_START team=-1 member=-1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=-1 to=-1 touches=0 text================= ROUND 1/5 ================ Current score: team 0 = 0, team 1 = 0
+1777809867889 type=LOG team=0 member=0 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=0 to=0 touches=0 text=round 1 started at source
+1777809867889 type=LOG team=0 member=1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=1 to=1 touches=0 text=middle started round
+1777809867889 type=LOG team=1 member=1 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=1 to=1 touches=0 text=middle started round
+1777809867889 type=LOG team=0 member=2 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=2 to=2 touches=0 text=sink started round
+1777809867889 type=LOG team=1 member=0 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=0 to=0 touches=0 text=round 1 started at source
+1777809867889 type=VISUAL_RESULT team=0 member=0 round=1 piece=1 serial=1 accepted=1/2 expected=2 wins=0:0 members=3 dir=1 from=0 to=2 touches=0 text=visual transaction accepted: serial 1 piece 1 progress 1/2
+1777809867889 type=ACCEPTED team=0 member=0 round=1 piece=1 serial=1 accepted=1/2 expected=2 wins=0:0 members=3 dir=0 from=0 to=0 touches=0 text=accepted serial 1 (piece 1), progress 1/2
+1777809867890 type=LOG team=0 member=2 round=1 piece=-1 serial=-1 accepted=0/2 expected=0 wins=0:0 members=3 dir=0 from=2 to=2 touches=0 text=sink stopped round
+1777809867890 type=VISUAL_RESULT team=0 member=0 round=1 piece=0 serial=2 accepted=2/2 expected=3 wins=0:0 members=3 dir=1 from=0 to=2 touches=0 text=visual transaction accepted: serial 2 piece 0 progress 2/2
+1777809867890 type=ACCEPTED team=0 member=0 round=1 piece=0 serial=2 accepted=2/2 expected=3 wins=0:0 members=3 dir=0 from=0 to=0 touches=0 text=accepted serial 2 (piece 0), progress 2/2
+1777809867890 type=ROUND_WIN team=0 member=0 round=1 piece=0 serial=2 accepted=2/2 expected=3 wins=0:0 members=3 dir=0 from=0 to=0 touches=0 text=team 0 won round 1
