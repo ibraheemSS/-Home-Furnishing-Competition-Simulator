@@ -4,6 +4,9 @@ A Linux multi-process simulation that models two teams competing to furnish two 
 
 ---
 
+<img width="1918" height="1011" alt="image" src="https://github.com/user-attachments/assets/5b044202-6cde-49f3-ad49-74aeac879d2e" />
+
+
 ## 📖 Overview
 
 This project was developed as part of an Operating Systems course. It demonstrates how multiple processes communicate and synchronize using Linux IPC mechanisms while simulating a home furnishing competition.
